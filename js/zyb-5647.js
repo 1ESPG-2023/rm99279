@@ -36,7 +36,7 @@ const liElementArray = [...liElementHtml];
 console.log(liElementHtml)
 
 liElementArray.map((item,key)=>{
-
+    if(item.textContent == "Item-39"){
     console.log(`${key+1} -${item.textContent}`)
-
+    }    
 })
