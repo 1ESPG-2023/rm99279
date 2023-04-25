@@ -92,5 +92,31 @@ function mudaCor(){
 
 }
 
+// Seleciona as imagens
+var img1 = document.getElementById("img1");
+var img2 = document.getElementById("img2");
+var img3 = document.getElementById("img3");
+
+// Define o ângulo de rotação em graus
+var angle = 45;
+
+// Aplica a transformação de rotação a cada imagem
+
+
 mudaCor();
+
+function SpeechRecognitionAlternative(Banner(){
+
+    let nr = Math.round(Math.random()*3);
+
+    let caminho = `./img/banner-lateral-${nr}.png`
+
+
+
+
+
+
+
+
+})
 
