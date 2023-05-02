@@ -52,71 +52,21 @@
 //     }
 // })
 
-// function soma(p1,p2,p3) {
-//     nr1 = p1;
-//     nr2 = p2;
-//     resultado = parseInt(nr1) + parseInt(nr2) + parseInt(p3)
-//     console.log(`O Resultado é : ${resultado}.`)
-//     return (resultado)
+function soma(p1,p2,p3) {
+    nr1 = p1;
+    nr2 = p2;
+    resultado = parseInt(nr1) + parseInt(nr2) + parseInt(p3)
+    console.log(`O Resultado é : ${resultado}.`)
+    return (resultado)
     // console.log(`Resultado : ${parseInt(nr1) + parseInt(nr2) + parseInt(parametro)}`);
     // console.log(`Este é o parâmetro que foi passado : ${parametro}`);
-// }
-
-//ARROW FUNCTION
-// const mudaCor = ()=>{
-    
-    //FUNÇÃO SET-TIME-OUT
-//     setTimeout(soma, 5000, 100,100,100);
-// }
-
-// mudaCor()
-
-function mudaCor(){
-
-    let r = "";
-    let g = "";
-    let b = "";
-
-    // random= Gera números aleatórios entre 0 e 1.
-    //ceil, floor e round que arredondam o número para cima, para baixo ou aleatóriamente
-    //Determinando para a váriavel r um valor entre 0 e 255.
-    r = Math.round(Math.random()*255);
-    g = Math.round(Math.random()*255);
-    b = Math.round(Math.random()*255);
-
-    const cabecalho = document.querySelector(".cabecalho");
-
-    cabecalho.setAttribute("style", `background-color:rgb(${r},${g},${b})`);
-
-    tmp = setTimeout(mudaCor, 0.1)
-
 }
 
-// Seleciona as imagens
-var img1 = document.getElementById("img1");
-var img2 = document.getElementById("img2");
-var img3 = document.getElementById("img3");
+//ARROW FUNCTION
+const mudaCor = ()=>{
+    
+    //FUNÇÃO SET-TIME-OUT
+    setTimeout(soma, 5000, 100,100,100);
+}
 
-// Define o ângulo de rotação em graus
-var angle = 45;
-
-// Aplica a transformação de rotação a cada imagem
-
-
-mudaCor();
-
-function SpeechRecognitionAlternative(Banner(){
-
-    let nr = Math.round(Math.random()*3);
-
-    let caminho = `./img/banner-lateral-${nr}.png`
-
-
-
-
-
-
-
-
-})
-
+mudaCor()
